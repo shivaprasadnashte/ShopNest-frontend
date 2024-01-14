@@ -5,8 +5,8 @@ function Home() {
   return (
    <>
     <Navbar />
-    <Categorynavbar />
-    <div></div></>
+    {/* <Categorynavbar /> */}
+   </>
   )
 }
 
