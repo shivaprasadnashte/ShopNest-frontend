@@ -16,7 +16,7 @@ function Hero() {
           <div className="  hover:bg-gray-200 py-2  ">Machinery tools</div>
           <div className="  hover:bg-gray-200 py-2  ">More category</div>
         </div>
-        <div className=" md:w-2/3 md:mx-2  lg:m-0 bg-[url('/images/hero.jpeg')]  bg-cover ">
+        <div className=" md:w-2/3 md:mx-2  lg:mx-2 bg-[url('/images/hero.jpeg')]  bg-cover ">
           <div className=" absolute  ">
             <div className=" flex md:p-5 lg:p-12 gap-3 flex-col relative">
               <div className=" text-2xl">Latest trending</div>
