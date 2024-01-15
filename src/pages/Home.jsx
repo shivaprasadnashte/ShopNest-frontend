@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import Categorynavbar from '../Components/Categorynavbar'
+import Hero from '../Components/Hero'
 function Home() {
-  return (
+  return (  
    <>
     <Navbar />
-    {/* <Categorynavbar /> */}
+    <Hero />
    </>
   )
 }
