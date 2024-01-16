@@ -4,6 +4,8 @@ import Hero from '../Components/Hero'
 import Deals from '../Components/Deals'
 import HomeOutdoor from '../Components/HomeOutdoor'
 import ConsumerElectronics from '../Components/ConsumerElectronics'
+import QuoteBanner from '../Components/QuoteBanner'
+import Recomended from '../Components/Recomended'
 function Home() {
   return (  
    <>
@@ -12,6 +14,8 @@ function Home() {
     <Deals />
     <HomeOutdoor />
     <ConsumerElectronics />
+    <QuoteBanner />
+    <Recomended />
    </>
   )
 }
