@@ -6,6 +6,8 @@ import HomeOutdoor from '../Components/HomeOutdoor'
 import ConsumerElectronics from '../Components/ConsumerElectronics'
 import QuoteBanner from '../Components/QuoteBanner'
 import Recomended from '../Components/Recomended'
+import Newsletter from '../Components/Newsletter'
+import Footer from '../Components/Footer'
 function Home() {
   return (  
    <>
@@ -16,6 +18,8 @@ function Home() {
     <ConsumerElectronics />
     <QuoteBanner />
     <Recomended />
+    <Newsletter />
+    <Footer />
    </>
   )
 }
