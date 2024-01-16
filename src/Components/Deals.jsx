@@ -22,7 +22,7 @@ function Deals() {
                                 Days
                             </span>
                         </div>
-                        <div className=' flex flex-col items-center text-xs lg:text-xl justify-center bg-[#606060] p-1 text-xl font-bold text-white rounded-md'>
+                        <div className=' flex flex-col items-center text-xs lg:text-xl justify-center bg-[#606060] p-1  font-bold text-white rounded-md'>
                             <span>
                                 13
                             </span>
@@ -30,7 +30,7 @@ function Deals() {
                                 Hour
                             </span>
                         </div>
-                        <div className=' flex flex-col items-center text-xs lg:text-xl justify-center bg-[#606060] py-1 px-2 text-xl font-bold text-white rounded-md'>
+                        <div className=' flex flex-col items-center text-xs lg:text-xl justify-center bg-[#606060] py-1 px-2 font-bold text-white rounded-md'>
                             <span>
                                 24
                             </span>
@@ -38,7 +38,7 @@ function Deals() {
                                 Min
                             </span>
                         </div>
-                        <div className=' flex flex-col items-center text-xs lg:text-xl justify-center bg-[#606060] py-1 px-2 text-xl font-bold text-white rounded-md'>
+                        <div className=' flex flex-col items-center text-xs lg:text-xl justify-center bg-[#606060] py-1 px-2 font-bold text-white rounded-md'>
                             <span>
                                 56
                             </span>
@@ -50,7 +50,7 @@ function Deals() {
                 </div>
                 <div className=' border-2 border-gray-200 p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img1} alt="watch" className='  h-24 w-24 lg:w-40 lg:h-40' />
-                    <div className=' text-xs h-5 lg:text-lg'>
+                    <div className=' w-20 text-xs h-5 lg:text-lg'>
                         Smart watches
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
@@ -60,7 +60,7 @@ function Deals() {
 
                 <div className=' border-2 border-gray-200 p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img2} alt="watch" className='  h-24 w-24 lg:w-40 lg:h-40' />
-                    <div className='text-xs lg:text-lg'>
+                    <div className='w-20 text-xs lg:text-lg'>
                     Laptops
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
@@ -70,7 +70,7 @@ function Deals() {
 
                 <div className=' border-2 border-gray-200 p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img3} alt="watch" className='   h-24 w-24 lg:w-40 lg:h-40' />
-                    <div className=' text-xs h-5 lg:text-lg'>
+                    <div className='w-20 text-xs h-5 lg:text-lg'>
                     GoPro cameras
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
@@ -80,7 +80,7 @@ function Deals() {
 
                 <div className=' border-2 border-gray-200 p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img4} alt="watch" className='   h-24 w-24 lg:w-40 lg:h-40' />
-                    <div className=' h-5 text-xs lg:text-lg'>
+                    <div className='w-20 h-5 text-xs lg:text-lg'>
                     Headphones
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
@@ -90,7 +90,7 @@ function Deals() {
 
                 <div className=' border-2 border-gray-200  p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img5} alt="watch" className='   h-24 w-24 lg:w-40 lg:h-40' />
-                    <div className=' text-xs h-5 lg:text-lg'>
+                    <div className='w-20 text-xs h-5 lg:text-lg'>
                     Canon camreras
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
