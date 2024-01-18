@@ -16,7 +16,8 @@ function Newsletter() {
                         <button className='bg-blue-600 px-2 py-1 rounded-md text-white'>Subscribe</button>
                     </div>
                 </div>
-            </div>
+                
+            </div> 
         </>
     )
 }
