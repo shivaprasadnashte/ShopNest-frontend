@@ -11,7 +11,7 @@ import { RxCross2 } from "react-icons/rx";
 function SideProfile({ showProfile, setShowProfile}) {
     return (
         <>
-            <div className=' h-screen w-full   flex'>
+            <div className=' h-full w-full   flex'>
                 <div className='   w-full '>
                     <div className=' px-5 py-2 bg-gray-200'>
                        <div className=' w-full flex justify-end '>

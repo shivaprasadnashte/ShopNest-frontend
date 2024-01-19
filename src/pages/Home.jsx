@@ -9,18 +9,22 @@ import Recomended from '../Components/Recomended'
 import Newsletter from '../Components/Newsletter'
 import Footer from '../Components/Footer'
 function Home() {
-  return (  
-   <>
-    <Navbar />
-    <Hero />
-    <Deals />
-    <HomeOutdoor />
-    <ConsumerElectronics />
-    <QuoteBanner />
-    <Recomended />
-    <Newsletter />
-    <Footer />
-   </>
+  return (
+    <>
+    <Navbar/>
+      <div className=' m-5 flex flex-col gap-5 justify-center'>
+        
+        <Hero />
+        <Deals />
+        <HomeOutdoor />
+        <ConsumerElectronics />
+        <QuoteBanner />
+        <Recomended />
+        <Newsletter />
+        
+      </div>
+      <Footer />
+    </>
   )
 }
 

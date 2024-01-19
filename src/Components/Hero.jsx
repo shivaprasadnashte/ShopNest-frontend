@@ -4,7 +4,7 @@ import { MdAccountCircle } from "react-icons/md";
 function Hero() {
   return (
     <>
-      <div className=" md:flex hidden border-2 border-gray-200 shadow-md m-5  p-2  lg:p-10 justify-between">
+      <div className=" md:flex hidden border-2 border-gray-200 shadow-md   p-2  lg:p-10 justify-between">
         <div className="  w-1/7 hidden md:flex text-xs lg:text-sm flex-col lg:gap-2">
           <div className=" hover:bg-gray-200 py-2 ">Automobiles</div>
           <div className="  hover:bg-gray-200 py-2  ">Clothes and wear</div>

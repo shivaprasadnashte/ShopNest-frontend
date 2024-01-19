@@ -5,7 +5,7 @@ function QuoteBanner() {
         <>
 
 
-            <div className=' hidden md:block lg:m-5 m-3'>
+            <div className=' hidden md:block '>
                 <div className="  bg-[url('/images/cover.jpeg')] bg-cover h-80 w-full flex justify-evenly ">
                     <div className=' w-1/2 text-white p-10'>
                         <p className="text-2xl font-bold lg:w-1/2">An easy way to send requests to all suppliers</p>

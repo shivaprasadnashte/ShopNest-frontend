@@ -3,7 +3,7 @@ import React from 'react'
 function Newsletter() {
     return (
         <>
-            <div className='md:m-5 m-2 text-xs md:text-lg'>
+            <div className='md:my-5 my-2 text-xs md:text-lg'>
                 <div className=" p-5 bg-gray-200 gap-2 w-full flex flex-col justify-center items-center">
                     <div className='w-full text-center mb-2'>
                         <p className='font-bold' >Subscribe on our newsletter</p>

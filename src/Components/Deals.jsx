@@ -7,7 +7,7 @@ import Img5 from '../../public/images/cam.jpeg'
 function Deals() {
     return (
         <>
-            <div className=' m-1 md:m-5 flex overflow-auto no-scrollbar '>
+            <div className=' justify-center flex overflow-auto no-scrollbar '>
                 <div className='border-2 border-gray-200 flex flex-col gap-2 md:gap-6 p-5 lg:p-5 i'>
                     <div>
                         <p className=' text-xl md:text-2xl font-bold'>Deals and offers</p>
