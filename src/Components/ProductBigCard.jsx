@@ -6,11 +6,16 @@ import { GoDotFill } from "react-icons/go";
 import { CiHeart } from "react-icons/ci";
 import { FaHeart } from "react-icons/fa";
 import Mobile2 from '../../public/images/phone.jpeg'
+import { useNavigate } from 'react-router-dom';
 function ProductBigCard() {
     const [like, setlike] = useState(false)
+    const navigate = useNavigate();
     return (
         <>
-            <div className=' flex h-48  items-center bg-white border-2 border-gray-200 '>
+            <div className=' flex h-48  items-center bg-white border-2 border-gray-200 '
+            onClick={()=>{
+                navigate('/product')
+            }}>
                 <div className=' w-96'>
                     <img src={Mobile2} alt="mobile" className='w-20 sm:w-56 ' />
                 </div>

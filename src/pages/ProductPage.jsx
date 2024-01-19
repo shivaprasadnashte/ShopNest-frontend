@@ -1,8 +1,14 @@
 import React from 'react'
-
+import ProductPageTop from '../Components/ProductPageTop'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 function ProductPage() {
   return (
-    <div>ProductPage</div>
+    <>
+      <Navbar />
+      <ProductPageTop />
+      <Footer />
+    </>
   )
 }
 

@@ -3,10 +3,15 @@ import Mobile from '../../public/images/mobile1.jpeg'
 import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
 import { GoDotFill } from "react-icons/go";
+import { useNavigate } from 'react-router-dom';
 function BigCard2() {
+    const navigate = useNavigate();
     return (
         <>
-            <div className=' flex border-2 border-gray-200 rounded-md shadow-sm bg-white p-2 w-full'>
+            <div className=' flex border-2 border-gray-200 rounded-md shadow-sm bg-white p-2 w-full'
+            onClick={()=>{
+                navigate('/product')
+            }}>
                 <div>
                     <img src={Mobile} alt=".." className='w-28' />
                 </div>
