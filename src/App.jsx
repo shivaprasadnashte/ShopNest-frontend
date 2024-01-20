@@ -1,19 +1,22 @@
-import{BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import SearchPage from './pages/SearchPage'
 import ProductPage from './pages/ProductPage'
+import MyCart from './pages/MyCart'
+import Login from './pages/Login'
 function App() {
   return (
     <>
-     <BrowserRouter>
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />     
+          <Route path="/" element={<Home />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/product" element={<ProductPage />} />
-
+          <Route path="/mycart" element={<MyCart />} />
+          <Route path='/login' element={<Login/>}/>
         </Routes>
       </BrowserRouter>
-  
+
     </>
   )
 }

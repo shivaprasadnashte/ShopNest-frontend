@@ -48,7 +48,12 @@ function Navbar() {
                                     </div>
                                 </div>
                                 <div className=' hidden gap-4 md:flex '>
-                                    <div className=' text-center flex flex-col items-center'>
+                                    <div className=' text-center flex flex-col items-center'
+                                    onClick={
+                                        ()=>{
+                                            navigate("/login")
+                                        }
+                                    }>
                                         <IoPersonSharp className=' text-xl text-gray-500' />
                                         <div className=' text-sm text-gray-500'>
                                             Profile
@@ -66,7 +71,12 @@ function Navbar() {
                                             Orders
                                         </div>
                                     </div>
-                                    <div className=' text-center flex flex-col items-center'>
+                                    <div className=' text-center flex flex-col items-center'
+                                    onClick={
+                                        ()=>{
+                                            navigate("/mycart")
+                                        }
+                                    }>
                                         <FaShoppingCart className=' text-xl text-gray-500' />
                                         <div className=' text-sm text-gray-500'>
                                             cart
