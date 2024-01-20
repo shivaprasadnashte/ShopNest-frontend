@@ -12,7 +12,7 @@ function Home() {
   return (
     <>
     <Navbar/>
-      <div className=' m-5 flex flex-col gap-5 justify-center'>
+      <div className=' sm:m-5 flex flex-col gap-5 justify-center'>
         
         <Hero />
         <Deals />
