@@ -12,7 +12,7 @@ import { FaGooglePlay } from "react-icons/fa6";
 function Footer() {
   return (
     <>
-      <div className=' pb-2 shadow-sm bg-gray-100'>
+      <div className=' pb-2  shadow-xl'>
         <div className=' md:flex'>
           <div className=' w-full md:w-1/5 p-2 md:p-5 gap-4 flex flex-col text-sm'>
             <div className=' flex justify-center items-center'>

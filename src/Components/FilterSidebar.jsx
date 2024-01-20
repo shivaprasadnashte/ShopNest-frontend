@@ -210,8 +210,9 @@ function FilterSidebar() {
                     <div>
                         <p className='font-bold'>Ratings</p>
                     </div>
-                    <div className='flex flex-col gap-2'>
-                        <div className='flex flex-col gap-2 ml-2'>
+                    <div className='flex flex-col gap-2 ml-2
+                    '>
+                        <div className='flex gap-2 '>
                             <div className='   text-center items-center text-white w-4'
                                 onClick={
                                     () => {
