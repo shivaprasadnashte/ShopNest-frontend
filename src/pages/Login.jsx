@@ -57,7 +57,7 @@ function Login() {
 
                                     <div className=' bg-white  hover:bg-blue-700 hover:text-white w-full text-center  py-1 border-2 border-gray-200 shadow-lg'>
                                         <button onClick={() => {
-                                            navigate('/signup')
+                                            navigate('/sellerregister')
                                         }} >
                                             CREATE SELLER ACCOUNT
                                         </button>

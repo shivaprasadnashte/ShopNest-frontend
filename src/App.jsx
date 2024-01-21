@@ -5,6 +5,9 @@ import ProductPage from './pages/ProductPage'
 import MyCart from './pages/MyCart'
 import Login from './pages/Login'
 import Regestration from './pages/Regestration'
+import SellerRegistration from './pages/SellerRegistration'
+import Profile from './pages/Profile'
+import SelleProfile from './pages/SelleProfile'
 function App() {
   return (
     <>
@@ -16,6 +19,9 @@ function App() {
           <Route path="/mycart" element={<MyCart />} />
           <Route path='/login' element={<Login/>}/>
           <Route path='/signup' element={<Regestration/>}/>
+          <Route path='/sellerregister' element={<SellerRegistration/>}/>
+          <Route path='/profile' element={<Profile/>}/>
+          <Route path='/sellerprofile' element={<SelleProfile/>}/>
         </Routes>
       </BrowserRouter>
 

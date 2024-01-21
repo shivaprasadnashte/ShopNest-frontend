@@ -28,7 +28,12 @@ function Navbar() {
                                     <div className='text-2xl md:hidden block'>
                                         <GiHamburgerMenu />
                                     </div>
-                                    <div className=' flex items-center'>
+                                    <div className=' flex items-center'
+                                    onClick={
+                                        ()=>{
+                                            navigate("/")
+                                        }
+                                    }>
                                         <div className=' bg-[#0D6EFD] p-1 md:p-2 text-white text-xl rounded-md md:text-2xl  '> <IoBagOutline /></div>
                                         <div className=' text-[#8CB7F5] md:text-3xl text-2xl font-bold'> Brand</div>
                                     </div>
@@ -51,7 +56,7 @@ function Navbar() {
                                     <div className=' text-center flex flex-col items-center'
                                     onClick={
                                         ()=>{
-                                            navigate("/login")
+                                            navigate("/sellerprofile")
                                         }
                                     }>
                                         <IoPersonSharp className=' text-xl text-gray-500' />
