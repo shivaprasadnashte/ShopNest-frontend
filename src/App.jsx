@@ -4,6 +4,7 @@ import SearchPage from './pages/SearchPage'
 import ProductPage from './pages/ProductPage'
 import MyCart from './pages/MyCart'
 import Login from './pages/Login'
+import Regestration from './pages/Regestration'
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
           <Route path="/product" element={<ProductPage />} />
           <Route path="/mycart" element={<MyCart />} />
           <Route path='/login' element={<Login/>}/>
+          <Route path='/signup' element={<Regestration/>}/>
         </Routes>
       </BrowserRouter>
 

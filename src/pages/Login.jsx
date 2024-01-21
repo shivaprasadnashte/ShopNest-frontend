@@ -1,6 +1,8 @@
 import React from 'react'
 import Cover from '../../public/images/cover.jpeg'
+import { useNavigate } from 'react-router-dom'
 function Login() {
+    const navigate = useNavigate()
     const [username, setUsername] = React.useState('')
     const [password, setPassward] = React.useState('')
     return (
@@ -49,7 +51,15 @@ function Login() {
                                         <button onClick={() => {
                                             navigate('/signup')
                                         }} >
-                                            CREAT AN ACCOUNT
+                                            CREATe CUSTOMER ACCOUNT
+                                        </button>
+                                    </div>
+
+                                    <div className=' bg-white  hover:bg-blue-700 hover:text-white w-full text-center  py-1 border-2 border-gray-200 shadow-lg'>
+                                        <button onClick={() => {
+                                            navigate('/signup')
+                                        }} >
+                                            CREATE SELLER ACCOUNT
                                         </button>
                                     </div>
                              
