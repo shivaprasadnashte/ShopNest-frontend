@@ -1,6 +1,51 @@
-import React from 'react'
-
+import React, { useEffect, useState } from 'react'
+import {
+    ref,
+    uploadBytes,
+    getDownloadURL,
+    listAll,
+    list,
+} from "firebase/storage"
+import { storage } from "../firebase"
+import {v4} from "uuid"
 function Regestration() {
+    const [image, setImage] = React.useState(null)
+    const [url, setUrl] = React.useState("")
+    const [progress, setProgress] = React.useState(0)
+    const imagesListRef = ref(storage, "Profilepicture/");
+    const [imageUrls, setImageUrls] = useState([]);
+
+    const handleChange = (e) => {
+        if (e.target.files[0]) {
+            setImage(e.target.files[0])
+            
+        }
+    }
+    // console.log(image)
+    
+        const uploadFile = () => {
+            if (image == null) return;
+            const imageRef = ref(storage, `Profilepicture/${image.name + v4()}`);
+            uploadBytes(imageRef, image).then((snapshot) => {
+              getDownloadURL(snapshot.ref).then((url) => {
+                setImageUrls((prev) => [...prev, url]);
+                
+              });
+            })
+          };
+    // console.log(imageUrls)
+   const fetchImages = async () => {
+     
+        listAll(imagesListRef).then((response) => {
+            response.items.forEach((item) => {
+              getDownloadURL(item).then((url) => {
+                setImageUrls((prev) => [...prev, url]);
+              });
+            });
+          });
+    }
+  
+
     return (
         <>
             <div className='w-full bg-[url(/images/bg1.jpg)] bg-cover md:h-screen'>
@@ -72,7 +117,9 @@ function Regestration() {
                             </div>
                         </div>
 
-                        <div>
+                        <div onClick={
+                            fetchImages
+                        }>
                             <p className='text-lg text-white'>Email </p>
                             <div className='border-2 border-gray-300 p-1 '>
                                 <input type="text" placeholder='Email' className='focus:outline-none placeholder:text-gray-300 bg-transparent text-white font-bold w-full h-full' />
@@ -82,18 +129,28 @@ function Regestration() {
                         <div>
                             <p className='text-lg text-white'> Profile Photo </p>
                             <div className=' p-1 '>
-                                <input type="file" />
+                                <input type="file" onChange={
+                                    handleChange
+                                  
+                                } />
                             </div>
                         </div>
 
                     </div>
                 </div>
                 <div className=' flex w-full justify-center '>
-                    <button className='hover:bg-gray-300 p-1 border-2 border-gray-300 rounded-md'>
+                    <button className='hover:bg-gray-300 p-1 border-2 border-gray-300 rounded-md'
+                    onClick={uploadFile}>
                         Register
                     </button>
                 </div>
             </div>
+          {
+            imageUrls.map((url) => {
+                return <img src={url} alt="profile" />;
+                }
+            )
+          }
         </>
     )
 }
