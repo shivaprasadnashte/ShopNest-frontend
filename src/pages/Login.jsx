@@ -41,7 +41,13 @@ function Login() {
                                 </div>
 
                                 <div className=' w-full flex flex-col gap-3 justify-center items-center'>
-                                    <div className=' bg-blue-700 text-white w-full text-center  py-1 shadow-lg'>
+                                    <div className=' bg-blue-700 text-white w-full text-center  py-1 shadow-lg'
+                                    onClick={
+                                        ()=>{
+                                            navigate('/sellerprofile')
+                                        }
+                                    
+                                    }>
                                         <button >LOGIN</button>
                                     </div>
                                     <div className=' text-gray-600'>

@@ -8,6 +8,7 @@ import Regestration from './pages/Regestration'
 import SellerRegistration from './pages/SellerRegistration'
 import Profile from './pages/Profile'
 import SelleProfile from './pages/SelleProfile'
+import AddProduct from './pages/AddProduct'
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
           <Route path='/sellerregister' element={<SellerRegistration/>}/>
           <Route path='/profile' element={<Profile/>}/>
           <Route path='/sellerprofile' element={<SelleProfile/>}/>
+          <Route path='/addproduct' element={<AddProduct/>}/>
         </Routes>
       </BrowserRouter>
 
