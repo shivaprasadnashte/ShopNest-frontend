@@ -4,7 +4,7 @@ function CartCard() {
     return (
         <div className='bg-white flex gap-2 w-full justify-between p-3 items-center border-2 border-gray-300'>
             <div>
-                <img src={Shart} alt="." className=' w-24 h-24' />
+                <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="." className=' w-24 h-24' />
             </div>
             <div className='flex flex-col gap-3'>
                 <p className='font-bold text-xl'>T-shirts with multiple colors, for men and lady</p>

@@ -96,28 +96,28 @@ function AddProduct() {
               </div>
               <div>
                 <p>Photo 2</p>
-                <input type="file" placeholder='Discount' className=' focus:outline-none w-full p-1' />
+                <input type="file" />
               </div>
               <div>
                 <p>Photo 3</p>
-                <input type="file" placeholder='Discount' className=' focus:outline-none w-full p-1' />
+                <input type="file"  />
               </div>
               <div>
                 <p>Photo 4</p>
-                <input type="file" placeholder='Discount' className=' focus:outline-none w-full p-1' />
+                <input type="file"  />
               </div>
               <div>
                 <p>Photo 5</p>
-                <input type="file" placeholder='Discount' className=' focus:outline-none w-full p-1' />
+                <input type="file"  />
               </div>
               <div>
                 <p>Photo 6</p>
-                <input type="file" placeholder='Discount' className=' focus:outline-none w-full p-1' />
+                <input type="file" />
               </div>
             </div>
           </div>
           <div className='w-full justify-center flex'>
-            <button className=' border-gray-200 border-2 bg-green-300 w-32 hover:bg-green-600 p-1 rounded-md'>
+            <button className=' border-gray-200 border-2 bg-green-300 w-32 hover:text-white hover:bg-green-600 p-1 rounded-md'>
               Add Product
             </button>
           </div>

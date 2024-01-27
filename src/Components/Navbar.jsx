@@ -56,7 +56,7 @@ function Navbar() {
                                     <div className=' text-center flex flex-col items-center'
                                     onClick={
                                         ()=>{
-                                            navigate("/sellerprofile")
+                                            navigate("/login")
                                         }
                                     }>
                                         <IoPersonSharp className=' text-xl text-gray-500' />
