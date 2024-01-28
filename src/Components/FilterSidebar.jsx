@@ -86,7 +86,7 @@ function FilterSidebar() {
                         </div>
                     </div>
                 </div>
-                <div  className='flex flex-col gap-3 border-b-2 border-gray-200 py-5'>
+                <div className='flex flex-col gap-3 border-b-2 border-gray-200 py-5'>
                     <div>
                         <p className='font-bold'>Features</p>
                     </div>

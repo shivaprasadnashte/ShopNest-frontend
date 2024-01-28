@@ -128,13 +128,13 @@ function Footer() {
           </div>
 
         </div>
-        
+
       </div>
- <div>
-    <div className='flex justify-center text-xs sm:text-lg bg-gray-300 p-2  mb-1 text-gray-600'>
-      <p>© 2021 Brand All Rights Reserved.</p>
-    </div>
- </div>
+      <div>
+        <div className='flex justify-center text-xs sm:text-lg bg-gray-300 p-2  mb-1 text-gray-600'>
+          <p>© 2021 Brand All Rights Reserved.</p>
+        </div>
+      </div>
     </>
   )
 }

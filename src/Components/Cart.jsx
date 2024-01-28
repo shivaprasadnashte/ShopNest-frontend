@@ -58,8 +58,8 @@ function Cart() {
                             Checkout
                         </button>
                         <div className='flex w-full justify-center gap-5'>
-                            <SiVisa className=' text-3xl '/>
-                            <IoLogoPaypal className=' text-xl'/>
+                            <SiVisa className=' text-3xl ' />
+                            <IoLogoPaypal className=' text-xl' />
                         </div>
                     </div>
                 </div>

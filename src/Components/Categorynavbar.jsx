@@ -27,7 +27,7 @@ function Categorynavbar() {
                         <div className=' flex text-xs  lg:text-xl items-center gap-2'>
                             Help
                             <div>
-                            <FaAngleDown className=' mt-1 text-gray-400 gap-1' />
+                                <FaAngleDown className=' mt-1 text-gray-400 gap-1' />
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function Categorynavbar() {
             <div className=' md:hidden flex gap-2 no-scrollbar overflow-auto px-2 mt-3'>
                 <div className='flex gap-2 bg-gray-200 px-2 rounded-sm text-blue-600'>
                     All <span>
-                    category
+                        category
                     </span>
                 </div>
                 <div className=' bg-gray-200 px-2 rounded-sm text-blue-600'>

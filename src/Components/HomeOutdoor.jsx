@@ -159,10 +159,10 @@ function HomeOutdoor() {
                         </div>
                     </div>
                 </div >
-               <div className='text-lg  mt-1 font-bold flex gap-3 text-blue-500 items-center '>
-               <p>Source now</p>
-                <HiMiniArrowLongRight className=' text-2xl mt-1' />
-               </div>
+                <div className='text-lg  mt-1 font-bold flex gap-3 text-blue-500 items-center '>
+                    <p>Source now</p>
+                    <HiMiniArrowLongRight className=' text-2xl mt-1' />
+                </div>
             </div>
 
         </>

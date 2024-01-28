@@ -61,27 +61,27 @@ function Deals() {
                 <div className=' border-2 border-gray-200 p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img2} alt="watch" className='  h-24 w-24 lg:w-40 lg:h-40' />
                     <div className='w-32 text-xs lg:text-lg'>
-                    Laptops
+                        Laptops
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
-                    -15%
+                        -15%
                     </div>
                 </div>
 
                 <div className=' border-2 border-gray-200 p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img3} alt="watch" className='   h-24 w-24 lg:w-40 lg:h-40' />
                     <div className='w-32 text-xs h-5 lg:text-lg'>
-                    GoPro cameras
+                        GoPro cameras
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
-                    -40%
+                        -40%
                     </div>
                 </div>
 
                 <div className=' border-2 border-gray-200 p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img4} alt="watch" className='   h-24 w-24 lg:w-40 lg:h-40' />
                     <div className='w-32 h-5 text-xs lg:text-lg'>
-                    Headphones
+                        Headphones
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
                         -25%
@@ -91,7 +91,7 @@ function Deals() {
                 <div className=' border-2 border-gray-200  p-5 flex flex-col items-center justify-center gap-1 md:gap-4'>
                     <img src={Img5} alt="watch" className='   h-24 w-24 lg:w-40 lg:h-40' />
                     <div className='w-40 text-xs h-5 lg:text-lg'>
-                    Canon camreras
+                        Canon camreras
                     </div>
                     <div className=' text-lg text-[#EB001B]'>
                         -25%
