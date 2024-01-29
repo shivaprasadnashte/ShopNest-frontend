@@ -9,7 +9,7 @@ function HomeOutdoor() {
         <>
             <div className=' hidden justify-center lg:flex  '>
                 <div className=" bg-[url('/images/home.jpeg')] bg-cover h-72 w-1/4 ">
-                    <div className=' :p-5 text-sm lg:text-2xl font-bold w-1/2'>
+                    <div className=' :p-5 text-sm lg:text-2xl fon t-bold w-1/2'>
                         <p>
                             Home and outdoor
                         </p>
